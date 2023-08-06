@@ -1,0 +1,27 @@
+* {
+  margin: 0%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 100vh;
+  width: 100%;
+}
+.fooditem {
+  border: 1px solid white;
+  border-radius: 5px;
+  background: #d1d4ff;
+  margin: 20px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+li {
+  width: 150px;
+  font-weight: bold;
+}
